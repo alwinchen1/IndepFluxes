@@ -1,0 +1,16 @@
+{
+ "meta": "Abstract branch model",
+ "internal": [ "B", "C" ],
+ "external": [ "A", "D", "E", "F" ],
+ "all": [ "internal", "external" ],
+ "reactions": [
+  { "stoic": "-\"A\"+\"B\"" },
+  { "stoic": "-\"B\"+\"C\"" },
+  { "stoic": "-\"B\"+\"D\"" },
+  { "stoic": "-\"C\"+\"E\"" },
+  { "stoic": "-\"C\"+\"F\"" }
+ ],
+ "extj": [ 3, 4, 5 ],
+ "q": { "B": 0, "C": 0 },
+ "solve": [ "B", "C" ]
+}
