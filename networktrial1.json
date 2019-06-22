@@ -1,0 +1,29 @@
+{
+ "meta": "Abstract branch model",
+ "external": [ "GlcEXT", "Pol", "Gol", "EtOH", "CO2", "NH3", "PheEXT", "TyrEXT", "TrpEXT" ],
+ "internal": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp", "ATP", "ADP" ],
+ "all": [ "internal", "external" ],
+ "reactions": [
+   { "stoic": "-\"GlcEXT\"+\"Glc\"" },
+   { "stoic": "-\"Glc\"-\"ATP\"+\"G6P\"+\"ADP\"" },
+   { "stoic": "-\"G6P\"-\"ATP\"+\"Pol\"+\"ADP\"+2\"Pi\"" },
+   { "stoic": "-\"G6P\"-\"ATP\"+2\"GAP\"+\"ADP\"" },   
+   { "stoic": "-\"GAP\"-\"ADP\"-\"Pi\"+\"PEP\"+\"ATP\"" },
+   { "stoic": "-\"GAP\"-\"ADP\"+\"ATP\"+\"EtOH\"+\"CO2\"" },
+   { "stoic": "-\"GAP\"+\"Gol\"+\"Pi\"" },
+   { "stoic": "-\"ATP\"+\"ADP\"+\"Pi\"" },
+   { "stoic": "-\"G6P\"-\"GAP\"-\"PEP\"+\"X5P\"+\"DAHP\"+\"Pi\"" },
+   { "stoic": "-\"PEP\"-\"DAHP\"-\"ATP\"+\"CHR\"+\"ADP\"+3\"Pi\"" },   
+   { "stoic": "-\"CHR\"+\"PPH\"" },
+   { "stoic": "-\"PPH\"-\"ATP\"-\"NH3\"+\"Phe\"+\"ADP\"+\"Pi\"" },
+   { "stoic": "-\"PPH\"-\"ATP\"-\"NH3\"+\"Tyr\"+\"ADP\"+\"Pi\"" },
+   { "stoic": "-\"PEP\"-\"X5P\"-\"CHR\"-4\"ATP\"-\"NH3\"+\"GAP\"+\"Trp\"+4\"ADP\"+\"EtOH\"+2\"CO2\"+3\"Pi\"+\"PPi\"" },
+   { "stoic": "-\"X5P\"-\"ADP\"-\"Pi\"+\"GAP\"+\"ATP\"+\"EtOH\"" },
+   { "stoic": "-\"Phe\"+\"PheEXT\"" },
+   { "stoic": "-\"Tyr\"+\"TyrEXT\"" },
+   { "stoic": "-\"Trp\"+\"TrpEXT\"" }
+ ],
+ "extj": [ 3, 6, 7, 15, 16, 17, 18 ],
+ "q": { "Glc": 0, "G6P": 0, "GAP": 0, "PEP": 0, "DAHP": 0, "X5P": 0, "CHR": 0, "PPH": 0, "Phe": 0, "Tyr": 0, "Trp": 0 },
+ "solve": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp"]
+}
