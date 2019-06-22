@@ -21,7 +21,7 @@
    { "stoic": "-\"Phe\"+\"PheEXT\"" },
    { "stoic": "-\"Tyr\"+\"TyrEXT\"" },
    { "stoic": "-\"Trp\"+\"TrpEXT\"" },
-   { "stoic": "-\"ATP\"-\"AMP\"+2\"ADP\"" },
+   { "stoic": "-\"ATP\"-\"AMP\"+2\"ADP\"" }
  ],
  "extj": [ 2, 3 ],
  "q": { "A": 0 },
