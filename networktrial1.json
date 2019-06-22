@@ -3,6 +3,7 @@
  "external": [ "GlcEXT", "Pol", "Gol", "EtOH", "CO2", "NH3", "PheEXT", "TyrEXT", "TrpEXT" ],
  "internal": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp", "ATP", "ADP" ],
  "all": [ "internal", "external" ],
+ "internals": ["internal" ],
  "reactions": [
    { "stoic": "-\"GlcEXT\"+\"Glc\"" },
    { "stoic": "-\"Glc\"-\"ATP\"+\"G6P\"+\"ADP\"" },
@@ -23,7 +24,7 @@
    { "stoic": "-\"Tyr\"+\"TyrEXT\"" },
    { "stoic": "-\"Trp\"+\"TrpEXT\"" }
  ],
- "extj": [ 3, 6, 7, 15, 16, 17, 18 ],
+ "excj": [ 3, 6, 7, 15, 16, 17, 18 ],
  "q": { "Glc": 0, "G6P": 0, "GAP": 0, "PEP": 0, "DAHP": 0, "X5P": 0, "CHR": 0, "PPH": 0, "Phe": 0, "Tyr": 0, "Trp": 0 },
  "solve": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp"]
 }
