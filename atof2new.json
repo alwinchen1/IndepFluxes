@@ -1,0 +1,16 @@
+{
+ "meta": "Abstract branch model ATOF 2",
+ "internal": [ "B", "C", "E" ],
+ "external": [ "A", "D", "F" ],
+ "all": [ "internal", "external" ],
+ "internals": [ "internal" ],
+ "reactions": [
+  { "stoic": "-\"A\"+\"B\"" },
+  { "stoic": "-\"B\"+\"C\"" },
+  { "stoic": "\"B\"-\"D\"" },
+  { "stoic": "-\"C\"+\"E\"" },
+  { "stoic": "-\"C\"+\"F\"" },
+  { "stoic": "-\"E\"+\"B\"" }  
+ ],
+ "excj": [ 1, 3, 4 ]
+}
