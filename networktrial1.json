@@ -1,7 +1,7 @@
 {
  "meta": "Abstract branch model",
  "external": [ "GlcEXT", "Pol", "Gol", "EtOH", "CO2", "NH3", "PheEXT", "TyrEXT", "TrpEXT" ],
- "internal": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp", "ATP", "ADP" ],
+ "internal": [ "Glc", "G6P", "GAP", "PEP", "DAHP", "X5P", "CHR", "PPH", "Phe", "Tyr", "Trp", "ATP" ],
  "all": [ "internal", "external" ],
  "internals": ["internal" ],
  "reactions": [
